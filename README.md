@@ -1,4 +1,4 @@
-# Serverless app via AWS Lambda, ApiGateway and Serverless framework
+## Serverless app via AWS Lambda, ApiGateway and Serverless framework
 
 ## Configuration of AWS CLI and IAM user credentials
 Hi there. Within this tutorial we'll try to write a simple serverless application using AWS Lambda functions, ApiGateway for triggering the functions and Serverless framework for IaC. Before starting it is worth to note that you will need to have an AWS account for this tutorial. Also, you need to install AWS CLI for working with the AWS environment from your console. 
