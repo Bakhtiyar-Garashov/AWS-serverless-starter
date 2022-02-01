@@ -24,7 +24,7 @@ sudo installer -pkg ./AWSCLIV2.pkg -target /
 
 After installation you can verify that by using the `aws --version` command. Output should be like below
 
-![AWS console](images/1.png)
+<img src="images/1.png" alt="drawing" height="60"/>
 
 And the final step of configuration is creating new AWS profile for that. AWS profile or more specifically named profile is an easy way of managing credentials for AWS Command Line Interface.
 
