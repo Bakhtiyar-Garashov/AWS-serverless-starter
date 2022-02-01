@@ -1,0 +1,14 @@
+service: aws-serverless-starter
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+
+functions:
+  hello:
+    handler: handler.hello
+    events:
+      - httpApi:
+          path: /
+          method: get
